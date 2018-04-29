@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FortuneTellerJS", "FortuneTellerJS\", "{D61BF226-AE55-4E5C-B820-612FC7F69778}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51320"
+		Debug.AspNetCompiler.PhysicalPath = "FortuneTellerJS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51320\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51320"
+		Release.AspNetCompiler.PhysicalPath = "FortuneTellerJS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51320\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51320"
+		SlnRelativePath = "FortuneTellerJS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61BF226-AE55-4E5C-B820-612FC7F69778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61BF226-AE55-4E5C-B820-612FC7F69778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4682EA17-4D98-4A3B-B2C8-A791D3870EC8}
+	EndGlobalSection
+EndGlobal

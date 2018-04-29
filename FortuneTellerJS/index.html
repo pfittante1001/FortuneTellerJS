@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Madame </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row introRow" id="introRow">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center">
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+        <div class="row enterRow" id="enterRow">
+            <div class="col-3 enterCol">
+
+            </div>
+            <div class="col-6 enterCol" id="center2">
+                <h1>Madame X's Fortune Bananza</h1>
+                <button id="startBtn" onclick="startQuiz('introRow', 'introRow2', 'enterRow')">Press If You Dare</button>
+            </div>
+            <div class="col-3 enterCol">
+
+            </div>
+        </div>
+
+
+        <div class="row" id="introRow2" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center3">
+
+                <h1>Thank you for playing Madame X Fortune Teller.</h1>
+                <p>I will ask you a series of questions.</p>
+                <p>If you tell the truth, I will tell your fortune.</p>
+                <button class="quesBtn" onclick="Question1()">Press If You Dare</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+        <div class="row" id="introRow3" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center4">
+
+                <h1>Answer my questions truthfully!!</h1><br />
+                <h2>I must know what your first name</h2><br />
+                <input type="text" id="input1" name="firstname" value="First Name" /><br />
+                <button class="quesBtn" onclick="Question2()">Press If Your Brave</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+        <div class="row" id="introRow4" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center5">
+
+                <h1>Answer my questions truthfully!!</h1>
+                <h2>I must know what month you were born</h2>
+                <h2>Please input a number 1 - 12.</h2>
+                <input type="number" id="input2" name="quantity" min="1" max="12" value="1" />
+                <button class="quesBtn" onclick="Question3()">Press If Your Brave</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+
+        <div class="row" id="introRow5" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center6">
+
+                <h1>Tell everyone to look away before you answer!!</h1>
+                <h2>I must know your age</h2>
+                <h2>Please input a number greater than 1.</h2>
+                <input type="number" id="input3" name="quantity" min="1" value="1" />
+                <button class="quesBtn" onclick="Question4()">Press If Your Strong</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+        <div class="row" id="introRow6" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center7">
+
+                <h1>You may need to call your parents!!</h1>
+                <h2>I must know how many siblings you have.</h2>
+                <h2>Please input a number equal to or greater than 0.</h2>
+                <input type="number" id="input4" name="quantity" min="0" value="0" />
+                <button class="quesBtn" onclick="Question5()">Press If Your Audacious</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+        <div class="row" id="introRow7" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center8">
+
+                <h1>I hope you are not color blind!!</h1>
+                <h2>What is your favorite ROYGBIV color?</h2>
+                <input type="button" onclick="alert('R = Red O = Orange Y = Yellow G = Green B = Blue I = Indigo V = Violet')" value="Click Me For Help">
+                <input type="text" id="input5" name="favColor" value="Favorite ROYGBIV" />
+                <button class="quesBtn" onclick="Fortune()">Press To Finish</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+        <div class="row" id="fortune" style="display:none">
+            <div class="col-3 introCol">
+
+            </div>
+            <div class="col-6 introCol" id="center9">
+
+                <h1 id="textTitle">Thank you for playing</h1>
+                <h2>Here is your fortune!</h2>
+                <p id="text"></p>
+
+                <button id="startBtn" onclick="PlayAgain('introRow2', 'fortune')">Play Again?</button>
+
+            </div>
+            <div class="col-3 introCol">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

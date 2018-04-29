@@ -1,0 +1,78 @@
+﻿
+body {
+    background-image: url('images/wood.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.introCol {
+    /*border:double;*/
+    /*max-width:33.33%;*/
+    height:500px;
+    margin:auto;
+    margin-top:25px;
+}
+#center {
+    background-image: url('images/madameX.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    border-radius: 25%;
+}
+#center9 {
+    background-image: url('images/scroll.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#center9.col-6.introCol {
+    padding-top: 50px;
+    color:black;
+}
+#center9.col-6.introCol h1 {
+    
+    color: black;
+}
+#center9.col-6.introCol h2 {
+    color: black;
+}
+#center9.col-6.introCol p {
+    color: black;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+#startBtn {
+    display: flex;
+    margin: auto;
+    font-family: 'Rye', cursive;
+    border-radius: 25%;
+}
+
+button.quesBtn {
+    display: flex;
+    margin: auto;
+    font-family: 'Rye', cursive;
+    border-radius: 25%;
+    margin-top: 10px;
+}
+input {
+    display: flex;
+    margin: auto;
+    margin-top:10px;
+}
